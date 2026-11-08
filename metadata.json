@@ -1,0 +1,8 @@
+{
+  "name": "HOTIJI OUTFIT'S",
+  "description": "Premium Men's Fashion & Clothing Retail store by Suraj Thakur. STYLE FOR EVERY YOU. Explore shirts, trousers, jackets, party wear, and order directly on WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

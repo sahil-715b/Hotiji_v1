@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+    --color-primary-black: #080808;
+    --color-secondary-black: #121212;
+    --color-charcoal: #1C1C1C;
+    --color-offwhite: #F5F5F3;
+    --color-silver: #BFC0C2;
+    --color-muted: #888888;
+    --color-border: #D8D8D8;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #080808;
+    color: #121212;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom scrollbar for fashion aesthetics */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121212;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555555;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
