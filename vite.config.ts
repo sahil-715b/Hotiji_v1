@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // Relative base so assets resolve on GitHub Pages (/Hotiji_v1/) and locally.
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
